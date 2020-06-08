@@ -57,6 +57,7 @@
 
         .h1 {
           font-size: 48px;
+          line-height: 1.1;
         }
         .h2 {
           font-size: 16px;
@@ -71,6 +72,10 @@
         h4 {
           font-size: 24px;
         }
+        .logo {
+          float: right;
+          margin: 0 10px 10px;
+        }
     </style>
 </head>
 <body>
@@ -80,7 +85,21 @@
         <div class="demo-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <h1 class="h1">PIP Buddy<small> - Your friendly Picture in Picture</small></h1>
+            <h1 class="h1">
+              <div class="logo">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2.5" y="10.5" width="59" height="43" rx="2.5" fill="white" stroke="#EB5757" stroke-width="5"/>
+                  <rect x="27" y="27" width="28" height="20" rx="2" fill="#EB5757"/>
+                  <rect x="27" y="27" width="28" height="20" rx="2" stroke="white"/>
+                </svg>
+              </div>
+              PIP Buddy
+              <br />
+              <small>Your friendly Picture in Picture</small>
+            </h1>
+
+            <hr />
+
             <h2 class="h2">Privacy Policy of <span class="product-url"></span></h2>
 
             <h3>Your Consent</h3>
