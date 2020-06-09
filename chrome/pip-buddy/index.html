@@ -70,7 +70,15 @@
           font-size: 30px;
         }
         h4 {
-          font-size: 24px;
+          font-size: 20px;
+        }
+        .question:before {
+          /*content: 'Question: ';*/
+          font-weight: bold;
+        }
+        .answer:before {
+          /*content: 'Answer: ';*/
+          font-weight: bold;
         }
         .logo {
           float: right;
@@ -119,21 +127,26 @@
 
             <h3>User Data Privacy</h3>
 
-            <h4>Do we handle personal or sensitive user data (including personally identifiable information, financial and payment information, health information, authentication information, website content and resources, form data, web browsing activity, user-provided content and personal communications)?</h4>
+            <h4 class="question">Do we handle personal or sensitive user data (including personally identifiable information, financial and payment information, health information, authentication information, website content and resources, form data, web browsing activity, user-provided content and personal communications)?</h4>
 
-            <p>No.</p>
+            <p class="answer">No, we do not handle personal or sensitive user data.</p>
 
-            <h4>Are we using any analytics Tool?</h4>
+            <h4 class="question">Does this extension track any user data?</h4>
 
-            <p>Yes, we are using Google Analytics.</p>
+            <p class="answer">No, this extension does not track any user data.</p>
 
-            <h4>Is there any personal or sensitive user data being transmitted for analytics??</h4>
+            <h4 class="question">Do we collect, transmit, use, or share user data?</h4>
 
-            <p>No. Google Analytics is being used to track anonymous usage (like how many times a feature was used) to improve the extension and provide better experience to users.</p>
+            <p class="answer">No, we do not collect, transmit, use or share any of the user's data.</p>
 
-            <h4>What information is being used for the extension to function from the webpages?</h4>
+            <h4 class="question">Are we using any analytics tool?</h4>
 
-            <p>The extension looks for the avaialbe vidoes in a webpage to shows them in Picture in Picture. This information is used only when the extension is running.</p>
+            <p class="answer">Yes, we are using Google Analytics over <i>HTTPS protocol</i>.</p>
+
+            <h4 class="question">Is there any personal or sensitive user data being used, collected, transmitted or shared for analytics??</h4>
+
+            <p class="answer">No. Google Analytics is tracking anonymous usage (like how many times a feature was used) to improve the extension and provide better experience to users.</p>
+            <p>There is no personal or sensitive user data or personally identifiable information being tracked.</p>
 
             <br /><hr />
 
